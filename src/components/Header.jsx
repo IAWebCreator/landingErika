@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Parallax } from 'react-parallax';
 import { Button, Typography, Box, Container } from '@mui/material';
 import { Security as SecurityIcon } from '@mui/icons-material';
+import { Link as ScrollLink } from 'react-scroll';
 
 function Header() {
   return (
@@ -39,21 +40,23 @@ function Header() {
               Especialistas en bienestar animal y evaluación profesional de unidades caninas de élite
             </Typography>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <Button
-                variant="contained"
-                size="large"
-                startIcon={<SecurityIcon />}
-                sx={{
-                  backgroundColor: 'secondary.main',
-                  color: 'primary.dark',
-                  fontWeight: 'bold',
-                  '&:hover': {
-                    backgroundColor: 'secondary.light',
-                  },
-                }}
-              >
-                Solicitar Consulta
-              </Button>
+              <ScrollLink to="contact" smooth={true} duration={500}>
+                <Button
+                  variant="contained"
+                  size="large"
+                  startIcon={<SecurityIcon />}
+                  sx={{
+                    backgroundColor: 'secondary.main',
+                    color: 'primary.dark',
+                    fontWeight: 'bold',
+                    '&:hover': {
+                      backgroundColor: 'secondary.light',
+                    },
+                  }}
+                >
+                  Solicitar Consulta
+                </Button>
+              </ScrollLink>
             </motion.div>
           </motion.div>
         </Container>

@@ -52,7 +52,7 @@ function Contact() {
   };
 
   return (
-    <Container component="section" maxWidth="sm" sx={{ my: 8 }}>
+    <Container component="section" maxWidth="sm" sx={{ my: 8 }} id="contact">
       <motion.div
         initial="hidden"
         animate="visible"
