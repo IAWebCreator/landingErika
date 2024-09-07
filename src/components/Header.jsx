@@ -8,7 +8,7 @@ function Header() {
   return (
     <Parallax
       blur={0}
-      bgImage="/images/security-dog.jpg"
+      bgImage="https://www.garda.com/sites/default/files/K9-Security-cropped.jpg"
       bgImageAlt="Perro de seguridad profesional"
       strength={200}
     >

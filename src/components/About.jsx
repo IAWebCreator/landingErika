@@ -30,18 +30,17 @@ function About() {
           animate="visible"
           variants={containerVariants}
         >
-          <Typography variant="h2" component="h2" gutterBottom align="center" sx={{ mb: 6, fontWeight: 300 }}>
-            Quiénes Somos
-          </Typography>
-          
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={6}>
               <motion.div variants={itemVariants}>
-                <Typography variant="body1" paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'justify' }}>
-                  En K9 Consultores, nuestra pasión por el bienestar animal nos impulsa a defender un principio fundamental: los perros de trabajo merecen el mismo nivel de cuidado y respeto que cualquier otro colaborador.
+                <Typography variant="h4" component="h2" gutterBottom color="primary.main">
+                  Sobre Nosotros
                 </Typography>
                 <Typography variant="body1" paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'justify' }}>
-                  Nos dedicamos a evaluar y optimizar las condiciones de vida y trabajo de los caninos en el sector de seguridad, garantizando que cada animal disfrute de un entorno saludable, un trato digno y las condiciones óptimas para desempeñar sus funciones de manera segura y eficaz.
+                  En K9 Consultores, nos especializamos en la consultoría y evaluación de perros de trabajo para el sector de seguridad. Nuestro equipo de expertos combina años de experiencia en el manejo y análisis de unidades caninas con un enfoque innovador y orientado a resultados.
+                </Typography>
+                <Typography variant="body1" sx={{ fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'justify' }}>
+                  Nos dedicamos a proporcionar soluciones integrales que no solo aseguran el cumplimiento de las normativas vigentes, sino que también optimizan el rendimiento y el bienestar de los equipos caninos de nuestros clientes.
                 </Typography>
               </motion.div>
             </Grid>
@@ -49,7 +48,7 @@ function About() {
               <motion.div variants={itemVariants}>
                 <Box
                   component="img"
-                  src="/images/k9-team.jpeg"
+                  src="https://media.defense.gov/2024/Apr/16/2003440069/825/780/0/240326-Z-WD033-1002.JPG"
                   alt="Equipo K9 Consultores"
                   sx={{
                     width: '100%',
