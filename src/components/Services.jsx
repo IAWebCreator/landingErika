@@ -12,7 +12,7 @@ function Services() {
     },
     {
       title: "Gestión Canina",
-      description: "Administramos unidades según normativas.",
+      description: "Asesoramos la administración de unidades caninas según las normativas",
       icon: <Assessment fontSize="large" />
     },
     {
