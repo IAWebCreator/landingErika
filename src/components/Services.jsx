@@ -7,22 +7,22 @@ function Services() {
   const services = [
     {
       title: "Bienestar Animal",
-      description: "Aseguramos los más altos estándares de bienestar para perros de trabajo.",
+      description: "Optimizamos condiciones para perros de trabajo.",
       icon: <Pets fontSize="large" />
     },
     {
-      title: "Gestión de Recursos Caninos",
-      description: "Optimizamos la administración de unidades caninas para máxima eficiencia.",
+      title: "Gestión Canina",
+      description: "Administramos unidades según normativas.",
       icon: <Assessment fontSize="large" />
     },
     {
-      title: "Adiestramiento Canino",
-      description: "Consultoría en métodos éticos y efectivos de adiestramiento.",
+      title: "Adiestramiento",
+      description: "Mejoramos técnicas de seguridad canina.",
       icon: <EmojiEvents fontSize="large" />
     },
     {
-      title: "Capacitación de Manejadores",
-      description: "Fortalecemos el vínculo entre manejadores y sus compañeros caninos.",
+      title: "Capacitación",
+      description: "Fortalecemos vínculo perro-manejador.",
       icon: <Group fontSize="large" />
     }
   ];
@@ -63,12 +63,22 @@ function Services() {
           {services.map((service, index) => (
             <Grid item xs={12} sm={6} key={index}>
               <motion.div variants={itemVariants}>
-                <Paper elevation={0} sx={{ p: 3, height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', border: '1px solid #e0e0e0', transition: 'all 0.3s ease-in-out', '&:hover': { transform: 'translateY(-10px)', boxShadow: 3 } }}>
+                <Paper elevation={0} sx={{ 
+                  p: 3, 
+                  height: '100%', 
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  alignItems: 'center', 
+                  justifyContent: 'center',
+                  border: '1px solid #e0e0e0', 
+                  transition: 'all 0.3s ease-in-out', 
+                  '&:hover': { transform: 'translateY(-10px)', boxShadow: 3 } 
+                }}>
                   {service.icon}
-                  <Typography variant="h6" component="h3" gutterBottom>
+                  <Typography variant="h6" component="h3" gutterBottom sx={{ mt: 2 }}>
                     {service.title}
                   </Typography>
-                  <Typography variant="body2">
+                  <Typography variant="body2" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                     {service.description}
                   </Typography>
                 </Paper>

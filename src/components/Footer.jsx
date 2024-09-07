@@ -13,15 +13,12 @@ function Footer() {
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
               <Email sx={{ mr: 1, fontSize: '0.9rem' }} />
-              <Typography variant="body2">info@k9consultores.com</Typography>
+              <Typography variant="body2">info@k9-consultores.com</Typography>
             </Box>
-            <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-              <Phone sx={{ mr: 1, fontSize: '0.9rem' }} />
-              <Typography variant="body2">+57 (1) 234-5678</Typography>
-            </Box>
+            
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
               <LocationOn sx={{ mr: 1, fontSize: '0.9rem' }} />
-              <Typography variant="body2">Calle 100 #15-09, Bogotá, Colombia</Typography>
+              <Typography variant="body2">Bogotá, Colombia</Typography>
             </Box>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
@@ -46,7 +43,7 @@ function Footer() {
               Sobre K9 Consultores
             </Typography>
             <Typography variant="body2">
-              Especialistas en bienestar y evaluación profesional de unidades caninas de élite. Comprometidos con la excelencia y el cuidado animal.
+              Elevemos los estándares de la seguridad canina
             </Typography>
           </Grid>
         </Grid>

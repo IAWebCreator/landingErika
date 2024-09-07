@@ -7,23 +7,23 @@ function WhyChooseUs() {
   const reasons = [
     {
       icon: <Security fontSize="large" />,
-      title: "Experiencia Inigualable",
-      description: "20+ años de soluciones de élite para unidades caninas."
-    },
-    {
-      icon: <Verified fontSize="large" />,
-      title: "Certificaciones Globales",
-      description: "Acreditaciones internacionales en bienestar animal y seguridad."
-    },
-    {
-      icon: <EmojiEvents fontSize="large" />,
-      title: "Resultados Comprobados",
-      description: "Mejora en 10,000+ unidades caninas en Latinoamérica."
+      title: "Análisis Profundo de Riesgos",
+      description: "Evaluamos exhaustivamente los riesgos asociados a tus unidades caninas para prevenir problemas operativos y legales."
     },
     {
       icon: <Gavel fontSize="large" />,
-      title: "Cumplimiento Legal",
-      description: "Garantía de operaciones conformes a normativas vigentes."
+      title: "Prevención de Sanciones",
+      description: "Te ayudamos a evitar sanciones de la Superintendencia de Vigilancia y de institutos de protección animal."
+    },
+    {
+      icon: <Verified fontSize="large" />,
+      title: "Protección de Reputación",
+      description: "Prevenimos escándalos mediáticos y posibles pérdidas de contratos, salvaguardando la imagen de tu empresa."
+    },
+    {
+      icon: <EmojiEvents fontSize="large" />,
+      title: "Soluciones Personalizadas",
+      description: "Ofrecemos estrategias adaptadas a tu empresa, maximizando la operatividad y el bienestar de tus equipos caninos."
     }
   ];
 
