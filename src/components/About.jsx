@@ -37,10 +37,10 @@ function About() {
                   Sobre Nosotros
                 </Typography>
                 <Typography variant="body1" paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'justify' }}>
-                  En K9 Consultores, nos especializamos en la consultoría y evaluación de perros de trabajo para el sector de seguridad. Nuestro equipo de expertos combina años de experiencia en el manejo y análisis de unidades caninas con un enfoque innovador y orientado a resultados.
+                  En Caninos & Consultores, somos un equipo de expertos con más de 15 años de experiencia en el manejo y análisis de unidades caninas. Nuestro grupo interdisciplinario está formado por médicos veterinarios especializados en bienestar animal y ciencias veterinarias, junto a instructores caninos y docentes altamente capacitados.
                 </Typography>
                 <Typography variant="body1" sx={{ fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'justify' }}>
-                  Nos dedicamos a proporcionar soluciones integrales que no solo aseguran el cumplimiento de las normativas vigentes, sino que también optimizan el rendimiento y el bienestar de los equipos caninos de nuestros clientes.
+                  Nos dedicamos a ofrecer soluciones integrales que aseguran el cumplimiento de normativas, al mismo tiempo que optimizan el rendimiento y el bienestar de los perros de trabajo.
                 </Typography>
               </motion.div>
             </Grid>
@@ -52,9 +52,10 @@ function About() {
                   alt="Equipo K9 Consultores"
                   sx={{
                     width: '100%',
-                    maxWidth: '400px',
+                    maxWidth: '500px',
                     height: 'auto',
                     borderRadius: 2,
+                    boxShadow: 3,
                     display: 'block',
                     margin: '0 auto',
                   }}
@@ -66,7 +67,7 @@ function About() {
           <Box sx={{ mt: 8 }}>
             <motion.div variants={itemVariants}>
               <Typography variant="body1" sx={{ maxWidth: '800px', margin: '0 auto', fontSize: '1.1rem', lineHeight: 1.8, textAlign: 'justify' }}>
-                Como expertos en consultoría y evaluación de perros de trabajo para el sector de seguridad, combinamos nuestra amplia experiencia en manejo y análisis de unidades caninas con un enfoque innovador. Ofrecemos soluciones personalizadas que permiten a nuestros clientes no solo cumplir con las normativas y evitar sanciones, sino también maximizar el bienestar y la eficiencia de sus equipos caninos, elevando así el estándar de la industria.
+                Como líderes en consultoría y evaluación de perros de trabajo para el sector de seguridad, combinamos nuestra vasta experiencia con un enfoque innovador. Nuestras soluciones personalizadas permiten a nuestros clientes maximizar la eficiencia y el bienestar de sus equipos caninos, elevando así los estándares de la industria. Confía en Caninos & Consultores para potenciar el potencial de tus equipos caninos y garantizar su desempeño óptimo en cada misión.
               </Typography>
             </motion.div>
           </Box>

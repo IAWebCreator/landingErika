@@ -9,7 +9,7 @@ function Header() {
   return (
     <Parallax
       blur={0}
-      bgImage="https://www.garda.com/sites/default/files/K9-Security-cropped.jpg"
+      bgImage="/images/security-dog.jpg" // Updated path to the image
       bgImageAlt="Perro de seguridad profesional"
       strength={200}
     >
@@ -31,13 +31,13 @@ function Header() {
             transition={{ duration: 1 }}
           >
             <Typography variant="h1" component="h1" gutterBottom sx={{ fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0,0,0,0.8)', mb: 4, color: '#f0f0f0' }}>
-              K9 Consultores
+            Caninos & Consultores
             </Typography>
             <Typography variant="h3" component="h2" gutterBottom sx={{ fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0,0,0,0.8)', mb: 4, color: '#f0f0f0' }}>
-              Bienestar animal en perros de trabajo
+              Bienestar animal en perros
             </Typography>
             <Typography variant="h4" component="h3" gutterBottom sx={{ maxWidth: '800px', mb: 6, textShadow: '2px 2px 4px rgba(0,0,0,0.8)', color: '#f0f0f0' }}>
-              Especialistas en bienestar animal y evaluación profesional de unidades caninas de élite
+              Especialistas en bienestar animal canina y evaluación profesional de unidades caninas de élite
             </Typography>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <ScrollLink to="contact" smooth={true} duration={500}>
