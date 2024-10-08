@@ -28,7 +28,7 @@ function Services() {
     {
       title: "Bienestar Integral para Perros de Hogar",
       description: "Nos dedicamos a asegurar que tu perro disfrute de una vida plena y feliz. Ofrecemos servicios personalizados que abarcan desde su bienestar físico y emocional hasta el adiestramiento necesario para una convivencia armoniosa.",
-      icon: <Home fontSize="large" />
+      icon: <Home fontSize="large" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} />
     }
   ];
 
@@ -87,7 +87,7 @@ function Services() {
                   '&:hover': { transform: 'translateY(-10px)', boxShadow: 3 } 
                 }}>
                   {service.icon}
-                  <Typography variant="h6" component="h3" gutterBottom sx={{ mt: 2 }}>
+                  <Typography variant="h6" component="h3" gutterBottom align="center" sx={{ mt: 2, textAlign: 'center' }}>
                     {service.title}
                   </Typography>
                   <Typography variant="body2" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', textAlign: 'center' }}>

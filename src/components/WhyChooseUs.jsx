@@ -7,17 +7,17 @@ function WhyChooseUs() {
   const reasons = [
     {
       icon: <Security fontSize="large" />,
-      title: "Perros de Trabajo para Empresas de Seguridad Privada",
+      title: "Perros de Trabajo",
       description: "Garantizamos que cada perro reciba el cuidado y entrenamiento necesarios para rendir al máximo sin comprometer su bienestar. Operan de forma eficiente, responsable y ética."
     },
     {
       icon: <Gavel fontSize="large" />,
-      title: "Cuidado y Bienestar para Perros de Hogar",
+      title: "Bienestar para Perros de Hogar",
       description: "Aseguramos la felicidad, salud y buen comportamiento de cada mascota, tratándola con cariño, respeto y responsabilidad."
     },
     {
       icon: <Verified fontSize="large" />,
-      title: "Cumplimiento Normativo y Bienestar Garantizado",
+      title: "Cumplimiento Normativo",
       description: "Ofrecemos asesoría integral para cumplir con normativas y promover el bienestar animal, optimizando procesos y garantizando un entorno seguro."
     },
     {

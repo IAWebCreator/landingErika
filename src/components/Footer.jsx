@@ -12,9 +12,11 @@ function Footer() {
               Contacto
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-              <Email sx={{ mr: 1, fontSize: '0.9rem' }} />
+              <Email sx={{ mr: 1, fontSize: '1.2rem' }} />
               <Link href="mailto:info@k9-consultores.com" color="inherit" underline="none">
-                <Typography variant="body2">info@k9-consultores.com</Typography>
+                <Typography variant="body2" sx={{ fontWeight: 'bold', fontSize: '1rem', color: 'secondary.main', '&:hover': { textDecoration: 'underline' } }}>
+                  info@k9-consultores.com
+                </Typography>
               </Link>
             </Box>
             
@@ -27,24 +29,34 @@ function Footer() {
             <Typography variant="subtitle1" gutterBottom fontWeight="bold">
               Contáctanos por WhatsApp
             </Typography>
-            <IconButton 
-              color="inherit" 
-              aria-label="WhatsApp" 
-              size="small" 
-              component="a" 
-              href="https://wa.me/573152740577" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              <WhatsApp fontSize="small" />
-            </IconButton>
-            <Typography variant="body2" sx={{ mt: 1 }}>
-              +57 315 2740577
-            </Typography>
+            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+              <IconButton 
+                color="inherit" 
+                aria-label="WhatsApp" 
+                size="large" 
+                component="a" 
+                href="https://wa.me/573152740577" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                sx={{ bgcolor: 'white', borderRadius: '50%', p: 1, '&:hover': { bgcolor: 'secondary.main' } }}
+              >
+                <WhatsApp fontSize="small" sx={{ color: 'green' }} />
+              </IconButton>
+              <Link 
+                href="https://wa.me/573152740577" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                sx={{ ml: 1, fontWeight: 'bold', fontSize: '1rem', color: 'secondary.main', '&:hover': { textDecoration: 'underline' } }}
+              >
+                <Typography variant="body2">
+                  +57 315 2740577
+                </Typography>
+              </Link>
+            </Box>
           </Grid>
           <Grid item xs={12} md={4}>
             <Typography variant="subtitle1" gutterBottom fontWeight="bold">
-              Sobre Caninos & Consultores
+              Caninos & Consultores
             </Typography>
             <Typography variant="body2">
               Elevemos los estándares de la seguridad canina
