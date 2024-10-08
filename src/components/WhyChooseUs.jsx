@@ -7,23 +7,23 @@ function WhyChooseUs() {
   const reasons = [
     {
       icon: <Security fontSize="large" />,
-      title: "Perros de Trabajo",
-      description: "Garantizamos que cada perro reciba el cuidado y entrenamiento necesarios para rendir al máximo sin comprometer su bienestar. Operan de forma eficiente, responsable y ética."
+      title: "Bienestar Animal",
+      description: "Optimizamos las condiciones físicas y emocionales de los perros, brindando asesoría en la implementación de programas de enriquecimiento ambiental. Garantizamos su bienestar integral y felicidad."
     },
     {
       icon: <Gavel fontSize="large" />,
-      title: "Bienestar para Perros de Hogar",
-      description: "Aseguramos la felicidad, salud y buen comportamiento de cada mascota, tratándola con cariño, respeto y responsabilidad."
+      title: "Gestión Canina",
+      description: "Asesoramos en la administración y organización de unidades caninas, cumpliendo con las normativas vigentes para garantizar la máxima eficiencia y bienestar."
     },
     {
       icon: <Verified fontSize="large" />,
-      title: "Cumplimiento Normativo",
-      description: "Ofrecemos asesoría integral para cumplir con normativas y promover el bienestar animal, optimizando procesos y garantizando un entorno seguro."
+      title: "Adiestramiento",
+      description: "Evaluamos el estado real y perfeccionamos técnicas de adiestramiento en seguridad canina, potenciando las habilidades de los perros en tareas operativas y de vigilancia."
     },
     {
       icon: <EmojiEvents fontSize="large" />,
-      title: "Reputación Sólida y Soluciones Personalizadas",
-      description: "Implementamos estrategias para fortalecer la reputación de tu empresa y desarrollamos soluciones a medida que maximizan la operatividad y el bienestar de tus equipos caninos."
+      title: "Capacitación",
+      description: "Ofrecemos herramientas teórico-prácticas diseñadas para fortalecer el vínculo entre el perro y su manejador, mejorando tanto la comunicación como la eficiencia en el trabajo colaborativo."
     }
   ];
 
