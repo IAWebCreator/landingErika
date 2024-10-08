@@ -7,27 +7,27 @@ function Services() {
   const services = [
     {
       title: "Bienestar Animal",
-      description: "Optimizamos las condiciones físicas y emocionales de los perros de trabajo, asegurando su bienestar integral.",
+      description: "Optimizamos las condiciones físicas y emocionales de los perros de trabajo, garantizando su bienestar integral y felicidad.",
       icon: <Pets fontSize="large" />
     },
     {
       title: "Gestión Canina",
-      description: "Asesoramos en la administración y organización de unidades caninas, cumpliendo con las normativas vigentes para garantizar la máxima eficiencia y bienestar.",
+      description: "Ofrecemos asesoría experta en la administración y organización de unidades caninas, asegurando el cumplimiento de normativas vigentes para maximizar la eficiencia y el bienestar de los animales.",
       icon: <Assessment fontSize="large" />
     },
     {
       title: "Adiestramiento",
-      description: "Perfeccionamos técnicas de adiestramiento en seguridad canina, potenciando las habilidades de los perros en tareas operativas y de vigilancia.",
+      description: "Perfeccionamos técnicas avanzadas de adiestramiento en seguridad canina, potenciando las habilidades de los perros en tareas operativas y de vigilancia.",
       icon: <EmojiEvents fontSize="large" />
     },
     {
       title: "Capacitación",
-      description: "Fortalecemos el vínculo entre el perro y su manejador, mejorando la comunicación y la efectividad en el trabajo conjunto.",
+      description: "Fortalecemos el vínculo entre el perro y su manejador, mejorando la comunicación y la efectividad en su trabajo conjunto.",
       icon: <Group fontSize="large" />
     },
     {
       title: "Bienestar Integral para Perros de Hogar",
-      description: "Nos enfocamos en garantizar que tu perro viva una vida plena y feliz. Ofrecemos servicios personalizados que abarcan desde su bienestar físico y emocional, hasta el adiestramiento necesario para una convivencia armoniosa.",
+      description: "Nos dedicamos a asegurar que tu perro disfrute de una vida plena y feliz. Ofrecemos servicios personalizados que abarcan desde su bienestar físico y emocional hasta el adiestramiento necesario para una convivencia armoniosa.",
       icon: <Home fontSize="large" />
     }
   ];
@@ -100,7 +100,7 @@ function Services() {
         </Grid>
         <Box sx={{ mt: 8, p: 4, backgroundColor: '#f5f5f5', borderRadius: 2, boxShadow: 3 }}>
           <Typography variant="body1" sx={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', fontStyle: 'italic' }}>
-            Así, atendemos tanto a las necesidades de empresas de seguridad como a las de hogares, y quienes necesiten nuestro servicio, siempre con el bienestar y la responsabilidad hacia los perros como prioridad.
+            Atendemos las necesidades tanto de empresas de seguridad como de hogares, priorizando siempre el bienestar y la responsabilidad hacia los perros.
           </Typography>
         </Box>
       </Container>
