@@ -7,23 +7,23 @@ function WhyChooseUs() {
   const reasons = [
     {
       icon: <Security fontSize="large" />,
-      title: "Bienestar Animal",
-      description: "Optimizamos las condiciones físicas y emocionales de los perros, brindando asesoría en la implementación de programas de enriquecimiento ambiental. Garantizamos su bienestar integral y felicidad."
+      title: "Perros de trabajo",
+      description: "Cuidamos y entrenamos a los perros de trabajo para que rindan al máximo, priorizando su bienestar."
     },
     {
       icon: <Gavel fontSize="large" />,
-      title: "Gestión Canina",
-      description: "Asesoramos en la administración y organización de unidades caninas, cumpliendo con las normativas vigentes para garantizar la máxima eficiencia y bienestar."
+      title: "Bienestar para perros de hogar",
+      description: "Ofrecemos servicios para asegurar la felicidad y salud de tu mascota, tratándola con cariño."
     },
     {
       icon: <Verified fontSize="large" />,
-      title: "Adiestramiento",
-      description: "Evaluamos el estado real y perfeccionamos técnicas de adiestramiento en seguridad canina, potenciando las habilidades de los perros en tareas operativas y de vigilancia."
+      title: "Cumplimiento Normativo",
+      description: "Aseguramos que tu operación cumpla con las normativas, promoviendo el bienestar animal."
     },
     {
-      icon: <EmojiEvents fontSize="large" />,
-      title: "Capacitación",
-      description: "Ofrecemos herramientas teórico-prácticas diseñadas para fortalecer el vínculo entre el perro y su manejador, mejorando tanto la comunicación como la eficiencia en el trabajo colaborativo."
+      icon: <Gavel fontSize="large" />,
+      title: "Análisis de Riesgos y Soluciones Personalizadas",
+      description: "Evaluamos riesgos y proponemos soluciones a medida que mejoran la calidad de vida y el rendimiento de tus perros."
     }
   ];
 
@@ -31,9 +31,7 @@ function WhyChooseUs() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
+      transition: { staggerChildren: 0.1 }
     }
   };
 
@@ -42,10 +40,7 @@ function WhyChooseUs() {
     visible: {
       y: 0,
       opacity: 1,
-      transition: {
-        type: "spring",
-        stiffness: 100
-      }
+      transition: { type: "spring", stiffness: 100 }
     }
   };
 
@@ -56,15 +51,14 @@ function WhyChooseUs() {
       variants={containerVariants}
       style={{
         backgroundColor: '#f5f5f5',
-        paddingTop: '6rem',
-        paddingBottom: '6rem',
+        padding: '6rem 0',
         clipPath: 'polygon(0 5%, 100% 0, 100% 95%, 0 100%)',
         marginTop: '-5rem'
       }}
     >
       <Container maxWidth="lg">
         <Typography variant="h2" component="h2" gutterBottom align="center" sx={{ mb: 8, color: 'primary.main', fontWeight: 'bold' }}>
-          ¿Por Qué Elegirnos?
+          ¿POR QUÉ ELEGIRNOS?
         </Typography>
         <Grid container spacing={4}>
           {reasons.map((reason, index) => (
@@ -86,7 +80,7 @@ function WhyChooseUs() {
                     bgcolor: 'primary.light', 
                     color: 'white' 
                   },
-                  minHeight: '300px' // Ensuring all boxes have the same minimum height
+                  minHeight: '300px'
                 }}>
                   <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', mb: 2 }}>
                     {reason.icon}

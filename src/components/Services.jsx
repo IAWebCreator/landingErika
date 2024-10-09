@@ -7,22 +7,22 @@ function Services() {
   const services = [
     {
       title: "Bienestar Animal",
-      description: "Optimizamos las condiciones físicas y emocionales de los perros de trabajo, garantizando su bienestar integral y felicidad.",
+      description: "Optimizamos las condiciones físicas y emocionales de los perros, brindando asesoría en la implementación de programas de enriquecimiento ambiental. Garantizamos su bienestar integral y felicidad.",
       icon: <Pets fontSize="large" />
     },
     {
       title: "Gestión Canina",
-      description: "Ofrecemos asesoría experta en la administración y organización de unidades caninas, asegurando el cumplimiento de normativas vigentes para maximizar la eficiencia y el bienestar de los animales.",
+      description: "Asesoramos en la administración y organización de unidades caninas, cumpliendo con las normativas vigentes para garantizar la máxima eficiencia y bienestar.",
       icon: <Assessment fontSize="large" />
     },
     {
       title: "Adiestramiento",
-      description: "Perfeccionamos técnicas avanzadas de adiestramiento en seguridad canina, potenciando las habilidades de los perros en tareas operativas y de vigilancia.",
+      description: "Evaluamos el estado real y perfeccionamos técnicas de adiestramiento en seguridad canina, potenciando las habilidades de los perros en tareas operativas y de vigilancia.",
       icon: <EmojiEvents fontSize="large" />
     },
     {
       title: "Capacitación",
-      description: "Fortalecemos el vínculo entre el perro y su manejador, mejorando la comunicación y la efectividad en su trabajo conjunto.",
+      description: "Ofrecemos herramientas teórico-prácticas diseñadas para fortalecer el vínculo entre el perro y su manejador, mejorando tanto la comunicación como la eficiencia en el trabajo colaborativo.",
       icon: <Group fontSize="large" />
     },
     {
